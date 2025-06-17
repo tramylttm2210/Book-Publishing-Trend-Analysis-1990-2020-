@@ -1,19 +1,24 @@
 # Book Publishing Trends & Forecast (1990–2020)
 
-**Tools & Packages:**  
-`janitor`, `lubridate`, `ggplot2`
+## Purpose
+To analyze four decades of book publishing data (1990–2020), identify key market drivers via Pareto analysis, and forecast future publication and reader-rating trends—providing actionable insights for publishers and authors to optimize output and engagement.
+
+## Tools & Packages
+- **Data cleaning:** `janitor`, `lubridate`  
+- **Visualization:** `ggplot2`  
+- **Analysis:** Pareto charts, trend extrapolation
 
 ---
 
 ## Project Overview
-Cleaned and standardized a 52,448-record, multi-decade books dataset (1990–2020), filtering outliers to establish a reliable baseline for analysis.
+Cleaned and standardized a 52,448-record, multi-decade books dataset—filtered outliers to establish a reliable baseline for analysis.
 
 ---
 
 ## Exploratory Data Analysis
 - **Histograms** of page counts (most books: 250–410 pages)  
 - **Boxplots** & **line charts** of star ratings (clustered at 3.5–4.5)  
-- **Publication volume** trendline (steady with a bump in the late 2000s)
+- **Publication volume** trendline (steady with slight growth in the late 2000s)
 
 ---
 
